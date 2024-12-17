@@ -2,8 +2,7 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 from datetime import datetime
-
-
+#comment
 # Database connection
 conn = sqlite3.connect("airline.db", check_same_thread=False)
 c = conn.cursor()
@@ -146,4 +145,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
